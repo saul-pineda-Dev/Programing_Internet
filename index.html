@@ -2,13 +2,31 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Website</title>
 </head>
-<body style="background-color: #00FF00;">
-    <h1>Cybersecurity: Attack, Defend and Secure</h1>
+<body style="background-color: #0b132b; color: #f1f5f9;">
+
+<div class="container mt-4">
+    <h1 class="text-center fw-bold">
+      Cybersecurity: Attack, Defend and Secure
+    </h1>
+    <p class="text-center">
+        Protecting digital assets in the modern world
+    </p>
     <div style="text-align: right;">
-        <image src="imagenes/GatitoHacker.jpeg" alt="Gatito Hacker" width="300" height="250">
+        <img src="imagenes/GatitoHacker.jpeg" alt="Gatito Hacker" width="300" height="250">
     </div>
     <h2>How digital systems are protected and what role DevOps plays in modern security</h2>
     <h1>1. What is Cybersecurity?</h1>
@@ -36,7 +54,11 @@
        </ol>
     <br>
     <div>
-        <image src="imagenes/NIST.jpeg" alt="NIST" width="500" height="300">
+        <img src="imagenes/NIST.jpeg"
+         alt="NIST"
+         width="500"
+         height="300"
+         class="img-fluid rounded">
     </div>
     <p>Source:</p><a href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework</a>
     <h1>2. What is DevOps?</h1>
@@ -45,7 +67,7 @@
     <p>Its objective is to improve collaboration between software development teams and IT operations team.</p>
     <p>Important DevOps concepts include:</p>
     <div>
-        <image src="imagenes/DevOps Tools_ How to Choose and Optimize.jpeg" alt="DevOps" width="500" height="300" >
+        <img src="imagenes/DevOps Tools_ How to Choose and Optimize.jpeg" alt="DevOps" width="500" height="300" >
     </div>
     <ul>
         <li>CI/CD</li>
@@ -58,7 +80,7 @@
         <li>Version Control</li>
         <li>Collaboration between teams</li>
     </ul>
-    <table border="1" cellpadding="8" cellspacing="0">
+    <table class="table table-dark table-striped table-bordered">
   <tr>
     <th>Cybersecurity </th>
     <th>DevOps </th>
@@ -104,5 +126,6 @@
     <td>Kubernetes</td>
   </tr>
 </table>
+</div>
 </body>
 </html>
